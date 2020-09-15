@@ -1,1 +1,133 @@
-hello
+<!DOCTYPE html>
+<head>
+    <meta name="keywords" content="HTML5, CSS3, JS">
+    <meta name="author" content="Melinda Marian">
+    <meta name="description" content="Sweet box - product landing page">
+    <title>Sacher Torte</title>
+    <link rel="icon" type="image/png" href="s-icon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="https://github.com/MelindaKleszken/Sachertorte/blob/master/ProductPage/SacherTorte.PNG?raw=true"
+        alt="sweet box logo"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#presentation">Presentation</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2><i>Austria's Sweet Secret</i></h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Sign up" class="btn" />
+    </form>
+  </section>
+
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-medal"></i></div>
+        <div class="desc">
+          <h2>Unique Experience</h2>
+          <p>
+            The world-famous original in the attractive wooden box - a sweet greeting from Vienna.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="desc">
+          <h2>Worldwide Shipping</h2>
+          <p>
+            Delivery might take up to 7 working days depending on the destination. 
+            Delivery by EMS. Prices for delivery by DHL, excluding product prices.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+        </div>
+        <div class="desc">
+          <h2>Quality Assurance</h2>
+          <p>
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="presentation">
+      <iframe
+        id="video"
+        height="315"
+        src="https://shop.sacher.com/Media/Uploaded/Startseite/sacher-cake_cropped.mp4"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="small">
+        <div class="level"><h4>Sacher-Torte size I</h4></div>
+        <h2>42,90€</h2>
+        <ol>
+          <li>Diameter: 16cm</li>
+          <li>Portions: 6</li>
+          <li>Weight: 1,0kg (including packaging)</li>
+          <li>Max. freshness within 16 days</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="medium">
+        <div class="level"><h4>Sacher-Torte size II</h4></div>
+        <h2>51,90€</h2>
+        <ol>
+          <li>Diameter: 19cm</li>
+          <li>Portions: 9</li>
+          <li>Weight: 1,4kg (including packaging)</li>
+          <li>Max. freshness within 18 days</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="large">
+        <div class="level"><h4>Sacher-Torte size III</h4></div>
+        <h2>58,90€</h2>
+        <ol>
+          <li>Diameter: 22cm</li>
+          <li>Portions: 12</li>
+          <li>Weight: 1,6kg (including packaging)</li>
+          <li>Max. freshness within 18 days</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2020,  <a href="https://shop.sacher.com/en/" target="_blank">  Sachertorte</a> </span>
+    </footer>
+  </div>
+</div>
