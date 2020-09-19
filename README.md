@@ -1,2 +1,2 @@
 # Sachertorte
-Sachertorte - a tribute page made for FCC
+Sachertorte - a tribute and product landing page made for FCC
