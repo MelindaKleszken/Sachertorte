@@ -30,16 +30,20 @@ a {
 /** global classes styling **/
 
 .container {
-  max-width: 1000px;
+  /*max-width: 1000px;*/
   width: 100%;
-  margin: 10px auto;
-  padding: 20px 20px;
+  padding: 15px 20px;
   overflow: hidden;
+  align-content: center;
 }
 @media (max-width: 600px){
-  container{
-    margin: 80px auto;
+  .container{
+    margin: 40px 10px;}
 }
+@media (max-width: 400px) {
+  .container {
+    margin: 0;
+  }
 }
 
 .btn {
@@ -177,12 +181,26 @@ nav > ul {
   #hero {
     margin-top: 170px;
   }
+  #hero > h2 {
+    align-items: center;
+    padding: 35px 5px 5px 5px;}
+}
+
+@media (max-width: 400px) {
+  #hero > h2{
+    align-items: center;
+    padding: 15px 5px;
+    font-size: 35px;
+  }
 }
 
 
 #features {
+  align-items: center;
   margin-top: 10px;
+  justify-content: center;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 #features .icon {
@@ -218,12 +236,12 @@ nav > ul {
     width: 100%;
     text-align: center;
     display: block;
-    padding: 30px;
+    padding: 10px;
     height: 150px;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   #features {
     margin-top: 0;
   }
@@ -312,23 +330,12 @@ footer {
   background-color: #ddd;
   padding: 20px;
 }
-
-/*footer > ul {
-  display: flex;
-  justify-content: flex-end;
+@media (max-width: 800px) {
+  footer {
+    margin-top: 15px;
+  }
 }
 
-footer > ul > li {
-  padding: 0 10px;
-}
-
-footer > span {
-  margin-top: 5px;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 0.9em;
-  color: #444;
-}*/
 #signup {
   display: flex;
   flex-direction: column;
@@ -339,10 +346,10 @@ footer > span {
   margin-top: 50px;
 }
 
-/*#signup > h2 {
+p {
   margin-bottom: 20px;
   word-wrap: break-word;
-}*/
+}
 
 footer input[type="email"] {
   max-width: 275px;
@@ -366,8 +373,13 @@ footer input[type="submit"]:hover {
 }
 
 @media (max-width: 650px) {
-  #signup {
-    margin-top: 120px;
-    align-items: right;
+  .signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  p {
+    margin: 10px;
   }
 }
